@@ -1,0 +1,23 @@
+{
+  "name": "mojave-passport",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stvnrlnd/mojave-passport.git"
+  },
+  "author": "Steven Roland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stvnrlnd/mojave-passport/issues"
+  },
+  "homepage": "https://github.com/stvnrlnd/mojave-passport#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
