@@ -6,9 +6,11 @@ var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 3000;
 
+app.use(express.static(__dirname + '/dev'));
+
 // ------ Build routes
 app.get('/', function(req, res) {
-  res.send("Hello, beautiful!");
+  res.sendfile('dev/index.html'); // TODO: sendfile is depricated, update this code
 });
 
 // ------ Serve
